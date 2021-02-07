@@ -1,0 +1,20 @@
+<section class="profile">
+    {{!-- <h1>User profile</h1> --}}
+    <div class='profile-container'>
+        <div class="avatar-container">
+            <img class="avatar" src="{{avatar}}">
+        </div>
+
+        <div class="profile-info-container">
+            <h3>Profile:</h3>
+            <h4><h4 class="profile-name-headers">Name: </h4> {{username}}</h4>
+            <h4><h4 class="profile-name-headers">E-mail:</h4> {{email}}</h4>
+        </div>
+        
+        
+    </div>
+    <div class="profile-options">
+        <a href="/auth/logout">Logout</a>
+        <a href="/user/profile/settings">Settings</a>
+    </div>
+</section>
